@@ -1,1 +1,128 @@
-/* Your styles here */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+  margin-inline: auto;
+  display: block;
+  background-color: #eaefed;
+}
+
+header {
+  text-align: left;
+  background-color: #222f3f;
+  padding: 1rem;
+  padding-left: 2rem;
+}
+
+header img {
+  width: 9rem;
+}
+
+nav div {
+  background-color: #364759;
+  text-align: center;
+  color: white;
+  padding: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+article div {
+  background-color: #f56600;
+  margin: 2rem;
+  text-align: center;
+  color: white;
+}
+
+.mainBanner {
+  background-image: url(../images/bg-image.png);
+  background-size: cover;
+  padding: 1rem;
+  margin-bottom: 0;
+}
+
+.miniBanner {
+  padding: 0.6rem;
+}
+
+.bannerCopy {
+  font-style: bold;
+  font-weight: 600;
+}
+
+article h2 {
+  margin: 2rem;
+  font-size: 2.2rem;
+  padding-top: 0.3rem;
+}
+
+article h3 {
+  font-size: 1rem;
+  padding-bottom: 2rem;
+}
+
+section div {
+  margin: 2rem;
+  background-color: white;
+}
+
+section img {
+  width: 100%;
+  margin-inline: auto;
+}
+
+.fourImgDiv {
+  text-align: left;
+  padding: 1.5rem;
+  font-size: 1.6rem;
+  font-weight: 550;
+}
+
+.fourImgDiv img {
+  float: inline-start;
+}
+
+.sectionDiv {
+  background-color: #eaefed;
+  text-align: center;
+}
+
+.sectionDiv p {
+  padding: 1rem;
+  font-size: 1.6rem;
+  font-weight: 550;
+}
+
+section a {
+  font-size: 1.4rem;
+  color: #0e7f9e;
+  font-weight: 550;
+  text-decoration: none;
+}
+
+.linkSection {
+  margin: 1rem;
+}
+
+.preFoot {
+  text-align: center;
+  background-color: #364759;
+  padding: 1rem;
+  font-size: 1.3rem;
+}
+
+footer a {
+  color: white;
+}
+
+.footer {
+  background-color: #222f3f;
+  text-align: center;
+  padding: 4.3rem;
+}
+
+footer img {
+  width: 13rem;
+}
