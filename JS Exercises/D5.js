@@ -78,8 +78,11 @@ console.log(cars);
 */
 const justTrims = [];
 for (let i = 0; i < cars.length; i++) {
-  console.log;
+  if (cars[i].trims.length > 0) {
+    justTrims.push(cars[i].trims[0]);
+  }
 }
+console.log(justTrims);
 
 /* ESERCIZIO 8
     Cicla l'array "cars" e costruisci un if/else statament per mostrare due diversi messaggi in console. Se la prima lettera della proprietà
@@ -91,9 +94,132 @@ for (let i = 0; i < cars.length; i++) {
 */
 const numericArray = [6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105];
 
+let i = 0;
+
+while (i < numericArray.length) {
+  if (numericArray[i] === 32) {
+    console.log(numericArray[i]);
+    break;
+  } else {
+    console.log(numericArray[i]);
+    i++;
+  }
+}
+
 /* ESERCIZIO 10
     Partendo dall'array fornito e utilizzando un costrutto switch, genera un nuovo array composto dalle posizioni di ogni carattere all'interno
     dell'alfabeto italiano.
     es. [f, b, e] --> [6, 2, 5]
 */
 const charactersArray = ["g", "n", "u", "z", "d"];
+const numArray = [];
+for (let i = 0; i < charactersArray[i].length; i++) {
+  let num = charactersArray[i];
+  i++;
+  switch (num) {
+    case "a":
+      numArray.push(1);
+      break;
+
+    case "b":
+      numArray.push(2);
+      break;
+
+    case "c":
+      numArray.push(3);
+      break;
+
+    case "d":
+      numArray.push(4);
+      break;
+
+    case "e":
+      numArray.push(5);
+      break;
+
+    case "f":
+      numArray.push(6);
+      break;
+
+    case "g":
+      numArray.push(7);
+      break;
+
+    case "h":
+      numArray.push(8);
+      break;
+
+    case "i":
+      numArray.push(9);
+      break;
+
+    case "j":
+      numArray.push(10);
+      break;
+
+    case "k":
+      numArray.push(11);
+      break;
+
+    case "l":
+      numArray.push(12);
+      break;
+
+    case "m":
+      numArray.push(13);
+      break;
+
+    case "n":
+      numArray.push(14);
+      break;
+
+    case "o":
+      numArray.push(15);
+      break;
+
+    case "p":
+      numArray.push(16);
+      break;
+
+    case "q":
+      numArray.push(17);
+      break;
+
+    case "r":
+      numArray.push(18);
+      break;
+
+    case "s":
+      numArray.push(19);
+      break;
+
+    case "t":
+      numArray.push(20);
+      break;
+
+    case "u":
+      numArray.push(21);
+      break;
+
+    case "v":
+      numArray.push(22);
+      break;
+
+    case "w":
+      numArray.push(23);
+      break;
+
+    case "x":
+      numArray.push(24);
+      break;
+
+    case "y":
+      numArray.push(25);
+      break;
+
+    case "z":
+      numArray.push(26);
+      break;
+  }
+}
+console.log(numArray);
